@@ -1,21 +1,4 @@
-Bash
-# 1. Cria um arquivo inicial de documentação
-echo "# PortfolioHUB - atividade2" >> README.md
-
-# 2. Inicializa o Git nesta pasta
-git init
-
-# 3. Adiciona o arquivo README para ser enviado
-git add README.md
-
-# 4. Faz o primeiro registro (commit) do projeto
-git commit -m "first commit"
-
-# 5. Define a branch principal como 'main'
-git branch -M main
-
-# 6. Conecta a sua pasta local ao repositório do GitHub que está na imagem image_1c0159.png
-git remote add origin https://github.com/rafaelteixeira-rgb/atividade2.git
-
-# 7. Envia o arquivo para o GitHub
-git push -u origin main
+.env
+node_modules/
+dist/
+.DS_Store
